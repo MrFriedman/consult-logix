@@ -14,6 +14,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
+  base: '/consult-logix/', // Your GitHub repo name
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
