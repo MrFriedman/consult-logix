@@ -69,7 +69,7 @@ function App() {
       <Toaster position="top-right" richColors closeButton />
       <div className="min-h-screen bg-background font-sans antialiased">
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/consult-logix" element={<Index />} />
           <Route path="/sign-in" element={<SignIn />} />
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/dashboard" element={<Dashboard />} />
